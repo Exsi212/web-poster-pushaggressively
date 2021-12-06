@@ -1,0 +1,82 @@
+@font-face {
+  // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)
+  font-family: "Pixel Cyr";
+  // адрес шрифта и тип
+  src: url("resource/fonts/3572.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  background-color: #BDBDBD;
+  margin: 0;
+  font-family: 'Pixel Cyr';
+}
+
+#header {
+  width: 1920px;
+  height: 76px;
+  background: #286DD4;
+  margin: auto;
+}
+#header img{
+  position: absolute;
+  top: 5px;
+  left: 13px;
+
+}
+
+#header p {
+  font-size: 46px;
+  margin-left: 106px;
+  position: absolute;
+  color: white;
+  line-height: 91.69%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  top: -30px;
+}
+
+.rectangle1 {
+  width: 1880px;
+  height: 115px;
+  background: #AAAAAA;
+  margin-top: 33px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#black1 {
+  width: 215px;
+  height: 67px;
+  background: black;
+  position: absolute;
+  margin-top: 22px;
+  left: 86px;
+}
+
+#black1 p {
+  color: red;
+  margin-left: 43px;
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.blink {
+  animation: blink 2s infinite;
+  /* Параметры анимации */
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+    /* Непрозрачный текст */
+  }
+
+  to {
+    opacity: 0;
+    /* Прозрачный текст */
+  }
+}
