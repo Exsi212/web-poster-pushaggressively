@@ -45,17 +45,15 @@ body {
   margin-top: 33px;
   margin-right: 20px;
   margin-left: 20px;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
   display: flex;
+  position: relative;
+  flex-direction: row;
 }
-
 #black1 {
   width: 215px;
   height: 67px;
   background: black;
-  position: absolute;
+  position: relative;
   margin-top: 22px;
   left: 86px;
 }
@@ -66,9 +64,8 @@ body {
   background: black;
   position: relative;
   margin-top: 22px;
-  left: 86px;
-  float: right;
-
+  /* text-align: 80%;
+  margin: 70%; */
 }
 #black1 p {
   color: red;
