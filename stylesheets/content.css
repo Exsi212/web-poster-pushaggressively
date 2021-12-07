@@ -19,11 +19,11 @@ body {
   background: #286DD4;
   margin: auto;
 }
-#header img{
+
+#header img {
   position: absolute;
   top: 5px;
   left: 13px;
-
 }
 
 #header p {
@@ -45,6 +45,10 @@ body {
   margin-top: 33px;
   margin-right: 20px;
   margin-left: 20px;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
 }
 
 #black1 {
@@ -56,6 +60,16 @@ body {
   left: 86px;
 }
 
+#black2{
+  width: 215px;
+  height: 67px;
+  background: black;
+  position: relative;
+  margin-top: 22px;
+  left: 86px;
+  float: right;
+
+}
 #black1 p {
   color: red;
   margin-left: 43px;
@@ -66,17 +80,14 @@ body {
 
 .blink {
   animation: blink 2s infinite;
-  /* Параметры анимации */
 }
 
 @keyframes blink {
   from {
     opacity: 1;
-    /* Непрозрачный текст */
   }
 
   to {
     opacity: 0;
-    /* Прозрачный текст */
   }
 }
