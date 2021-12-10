@@ -320,7 +320,12 @@ body {
   grid-area: 2 / 16 / 3 / 17;
   background-color: #d2d2d2;
 }
-
+.div32 p{
+  font-size: 96px;
+  color: #008000;
+  margin-top: 0px;
+  margin-left: 39px;
+}
 .div33 {
   grid-area: 3 / 1 / 4 / 2;
   background-color: #d2d2d2;
