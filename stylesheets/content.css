@@ -452,12 +452,14 @@ body {
   grid-area: 3 / 15 / 4 / 16;
   background-color: #d2d2d2;
 }
-.div47 p{
+
+.div47 p {
   font-size: 96px;
   color: #008000;
   margin-top: 0px;
   margin-left: 39px;
 }
+
 .div48 {
   grid-area: 3 / 16 / 4 / 17;
   background-color: #d2d2d2;
@@ -479,6 +481,7 @@ body {
   margin-top: 0px;
   margin-left: 39px;
 }
+
 .div51 p {
   font-size: 96px;
   color: #286DD4;
@@ -505,12 +508,14 @@ body {
   grid-area: 4 / 6 / 5 / 7;
   background-color: #d2d2d2;
 }
-.div54 p{
+
+.div54 p {
   font-size: 96px;
   color: #008000;
   margin-top: 0px;
   margin-left: 39px;
 }
+
 .div55 {
   grid-area: 4 / 7 / 5 / 8;
   background-color: #d2d2d2;
@@ -525,6 +530,7 @@ body {
   grid-area: 4 / 9 / 5 / 10;
   background-color: #d2d2d2;
 }
+
 .div57 img {
   width: 96px;
   height: 96px;
@@ -532,27 +538,32 @@ body {
   margin-top: 15px;
   margin-right: 9px;
 }
+
 .div58 {
   grid-area: 4 / 10 / 5 / 11;
   background-color: #d2d2d2;
 }
-.div58 img{
+
+.div58 img {
   width: 96px;
   height: 96px;
   margin-left: 11px;
   margin-top: 15px;
   margin-right: 9px;
 }
+
 .div59 {
   grid-area: 4 / 11 / 5 / 12;
   background-color: #d2d2d2;
 }
-.div59 img{
+
+.div59 img {
   width: 96px;
   height: 96px;
   margin-left: 13px;
   margin-top: 15px
 }
+
 .div60 {
   grid-area: 4 / 12 / 5 / 13;
   background-color: #d2d2d2;
@@ -567,22 +578,26 @@ body {
   grid-area: 4 / 14 / 5 / 15;
   background-color: #d2d2d2;
 }
-.div62 p{
+
+.div62 p {
   font-size: 96px;
   color: #008000;
   margin-top: 0px;
   margin-left: 39px;
 }
+
 .div63 {
   grid-area: 4 / 15 / 5 / 16;
   background-color: #d2d2d2;
 }
-.div63 p{
+
+.div63 p {
   color: white;
   font-size: 18px;
   margin-left: 40px;
   margin-top: 40px;
 }
+
 .div64 {
   grid-area: 4 / 16 / 5 / 17;
   background-color: #d2d2d2;
@@ -597,32 +612,38 @@ body {
   grid-area: 5 / 2 / 6 / 3;
   background-color: #d2d2d2;
 }
-.div66 p{
+
+.div66 p {
   color: white;
-font-size: 18px;
-margin-left: 22px;
-margin-top: 43px;
+  font-size: 18px;
+  margin-left: 22px;
+  margin-top: 43px;
 }
+
 .div67 {
   grid-area: 5 / 3 / 6 / 4;
   background-color: #d2d2d2;
 }
-.div67 p{
+
+.div67 p {
   font-size: 96px;
   color: #286DD4;
   margin-top: 0px;
   margin-left: 39px;
 }
+
 .div68 {
   grid-area: 5 / 4 / 6 / 5;
   background-color: #d2d2d2;
 }
+
 .div68 img {
   width: 96px;
   height: 96px;
   margin-top: 12px;
   margin-left: 8px;
 }
+
 .div69 {
   grid-area: 5 / 5 / 6 / 6;
   background-color: #d2d2d2;
@@ -632,12 +653,14 @@ margin-top: 43px;
   grid-area: 5 / 6 / 6 / 7;
   background-color: #d2d2d2;
 }
-.div70 p{
+
+.div70 p {
   font-size: 96px;
   color: #008000;
   margin-top: 0px;
   margin-left: 39px;
 }
+
 .div71 {
   grid-area: 5 / 7 / 6 / 8;
   background-color: #d2d2d2;
@@ -647,6 +670,7 @@ margin-top: 43px;
   grid-area: 5 / 8 / 6 / 9;
   background-color: #d2d2d2;
 }
+
 .div73 img {
   width: 96px;
   height: 96px;
@@ -654,6 +678,7 @@ margin-top: 43px;
   margin-top: 15px;
   margin-right: 9px;
 }
+
 .div73 {
   grid-area: 5 / 9 / 6 / 10;
   background-color: #d2d2d2;
@@ -663,6 +688,7 @@ margin-top: 43px;
   grid-area: 5 / 10 / 6 / 11;
   background-color: #d2d2d2;
 }
+
 .div75 img {
   width: 96px;
   height: 96px;
@@ -670,6 +696,7 @@ margin-top: 43px;
   margin-top: 15px;
   margin-right: 9px;
 }
+
 .div75 {
   grid-area: 5 / 11 / 6 / 12;
   background-color: #d2d2d2;
@@ -684,32 +711,38 @@ margin-top: 43px;
   grid-area: 5 / 13 / 6 / 14;
   background-color: #d2d2d2;
 }
-.div77 p{
+
+.div77 p {
   font-size: 96px;
   color: #008000;
   margin-top: 0px;
   margin-left: 39px;
 }
+
 .div78 {
   grid-area: 5 / 14 / 6 / 15;
   background-color: #d2d2d2;
 }
-.div78 img{
+
+.div78 img {
   width: 96px;
   height: 96px;
   margin-top: 12px;
   margin-left: 8px;
 }
+
 .div79 {
   grid-area: 5 / 15 / 6 / 16;
   background-color: #d2d2d2;
 }
-.div79 p{
+
+.div79 p {
   color: white;
   font-size: 18px;
   margin-left: 49px;
   margin-top: 40px;
 }
+
 .div80 {
   grid-area: 5 / 16 / 6 / 17;
   background-color: #d2d2d2;
@@ -729,12 +762,14 @@ margin-top: 43px;
   grid-area: 6 / 3 / 7 / 4;
   background-color: #d2d2d2;
 }
-.div84 img{
+
+.div84 img {
   width: 96px;
-height: 96px;
-margin-top: 12px;
-margin-left: 8px;
+  height: 96px;
+  margin-top: 12px;
+  margin-left: 8px;
 }
+
 .div84 {
   grid-area: 6 / 4 / 7 / 5;
   background-color: #d2d2d2;
@@ -744,12 +779,14 @@ margin-left: 8px;
   grid-area: 6 / 5 / 7 / 6;
   background-color: #d2d2d2;
 }
+
 .div86 p {
   font-size: 96px;
   color: #008000;
   margin-top: 0px;
   margin-left: 39px;
 }
+
 .div86 {
   grid-area: 6 / 6 / 7 / 7;
   background-color: #d2d2d2;
@@ -769,6 +806,7 @@ margin-left: 8px;
   grid-area: 6 / 9 / 7 / 10;
   background-color: #d2d2d2;
 }
+
 .div89 img {
   width: 96px;
   height: 96px;
@@ -776,29 +814,33 @@ margin-left: 8px;
   margin-top: 15px;
   margin-right: 9px;
 }
+
 .div90 {
   grid-area: 6 / 10 / 7 / 11;
   background-color: #d2d2d2;
 }
+
 .div90 img {
   width: 96px;
   height: 96px;
   margin-left: 11px;
   margin-top: 15px;
   margin-right: 9px;
-
 }
+
 .div91 {
   grid-area: 6 / 11 / 7 / 12;
   background-color: #d2d2d2;
 }
-.div91 img{
+
+.div91 img {
   width: 96px;
-height: 96px;
-margin-left: 11px;
-margin-top: 15px;
-margin-right: 9px;
+  height: 96px;
+  margin-left: 11px;
+  margin-top: 15px;
+  margin-right: 9px;
 }
+
 .div92 {
   grid-area: 6 / 12 / 7 / 13;
   background-color: #d2d2d2;
@@ -808,12 +850,14 @@ margin-right: 9px;
   grid-area: 6 / 13 / 7 / 14;
   background-color: #d2d2d2;
 }
+
 .div93 p {
   font-size: 96px;
-color: #008000;
-margin-top: 0px;
-margin-left: 39px;
+  color: #008000;
+  margin-top: 0px;
+  margin-left: 39px;
 }
+
 .div94 {
   grid-area: 6 / 14 / 7 / 15;
   background-color: #d2d2d2;
@@ -823,12 +867,14 @@ margin-left: 39px;
   grid-area: 6 / 15 / 7 / 16;
   background-color: #d2d2d2;
 }
-.div95 p{
+
+.div95 p {
   color: white;
-font-size: 18px;
-margin-left: 22px;
-margin-top: 43px;
+  font-size: 18px;
+  margin-left: 22px;
+  margin-top: 43px;
 }
+
 .div96 {
   grid-area: 6 / 16 / 7 / 17;
   background-color: #d2d2d2;
@@ -838,12 +884,14 @@ margin-top: 43px;
   grid-area: 7 / 1 / 8 / 2;
   background-color: #d2d2d2;
 }
-.div98 img{
+
+.div98 img {
   width: 96px;
-height: 96px;
-margin-top: 12px;
-margin-left: 8px;
+  height: 96px;
+  margin-top: 12px;
+  margin-left: 8px;
 }
+
 .div98 {
   grid-area: 7 / 2 / 8 / 3;
   background-color: #d2d2d2;
@@ -868,15 +916,24 @@ margin-left: 8px;
   grid-area: 7 / 6 / 8 / 7;
   background-color: #d2d2d2;
 }
-.div102 p{
+
+.div102 p {
   font-size: 96px;
-color: #008000;
-margin-top: 0px;
-margin-left: 39px;
+  color: #008000;
+  margin-top: 0px;
+  margin-left: 39px;
 }
+
 .div103 {
   grid-area: 7 / 7 / 8 / 8;
   background-color: #d2d2d2;
+}
+
+.div103 p {
+  font-size: 96px;
+  color: #008000;
+  margin-top: 0px;
+  margin-left: 39px;
 }
 
 .div104 {
@@ -909,6 +966,13 @@ margin-left: 39px;
   background-color: #d2d2d2;
 }
 
+.div109 p {
+  font-size: 96px;
+  color: #008000;
+  margin-top: 0px;
+  margin-left: 39px;
+}
+
 .div110 {
   grid-area: 7 / 14 / 8 / 15;
   background-color: #d2d2d2;
@@ -917,6 +981,13 @@ margin-left: 39px;
 .div111 {
   grid-area: 7 / 15 / 8 / 16;
   background-color: #d2d2d2;
+}
+
+.div112 p {
+  font-size: 96px;
+  color: #286DD4;
+  margin-top: 0px;
+  margin-left: 39px;
 }
 
 .div112 {
@@ -932,6 +1003,13 @@ margin-left: 39px;
 .div114 {
   grid-area: 8 / 2 / 9 / 3;
   background-color: #d2d2d2;
+}
+
+.div114 img {
+  width: 96px;
+  height: 96px;
+  margin-top: 12px;
+  margin-left: 8px;
 }
 
 .div115 {
@@ -969,14 +1047,35 @@ margin-left: 39px;
   background-color: #d2d2d2;
 }
 
+.div121 p {
+  color: white;
+  font-size: 18px;
+  margin-left: 41px;
+  margin-top: 45px;
+}
+
 .div122 {
   grid-area: 8 / 10 / 9 / 11;
   background-color: #d2d2d2;
 }
 
+.div122 p {
+  color: white;
+  font-size: 18px;
+  margin-left: 25px;
+  margin-top: 47px;
+}
+
 .div123 {
   grid-area: 8 / 11 / 9 / 12;
   background-color: #d2d2d2;
+}
+
+.div123 p {
+  color: white;
+  font-size: 18px;
+  margin-left: 32px;
+  margin-top: 46px;
 }
 
 .div124 {
@@ -994,14 +1093,35 @@ margin-left: 39px;
   background-color: #d2d2d2;
 }
 
+.div126 img {
+  width: 86px;
+  height: 86px;
+  margin-top: 14px;
+  margin-left: 14px;
+}
+
 .div127 {
   grid-area: 8 / 15 / 9 / 16;
   background-color: #d2d2d2;
 }
 
+.div127 p {
+  font-size: 96px;
+  color: #286DD4;
+  margin-top: 0px;
+  margin-left: 39px;
+}
+
 .div128 {
   grid-area: 8 / 16 / 9 / 17;
   background-color: #d2d2d2;
+}
+
+.div128 p {
+  font-size: 96px;
+  color: #286DD4;
+  margin-top: 0px;
+  margin-left: 39px;
 }
 
 .div129 {
@@ -1024,6 +1144,13 @@ margin-left: 39px;
   background-color: #d2d2d2;
 }
 
+.div132 p {
+  font-size: 96px;
+  color: #286DD4;
+  margin-top: 0px;
+  margin-left: 39px;
+}
+
 .div133 {
   grid-area: 9 / 5 / 10 / 6;
   background-color: #d2d2d2;
@@ -1037,6 +1164,20 @@ margin-left: 39px;
 .div135 {
   grid-area: 9 / 7 / 10 / 8;
   background-color: #d2d2d2;
+}
+
+.div134 img {
+  width: 96px;
+  height: 96px;
+  margin-top: 12px;
+  margin-left: 8px;
+}
+
+.div135 img {
+  width: 96px;
+  height: 96px;
+  margin-top: 12px;
+  margin-left: 8px;
 }
 
 .div136 {
@@ -1064,6 +1205,13 @@ margin-left: 39px;
   background-color: #d2d2d2;
 }
 
+.div140 p {
+  font-size: 96px;
+  color: #286DD4;
+  margin-top: 0px;
+  margin-left: 39px;
+}
+
 .div141 {
   grid-area: 9 / 13 / 10 / 14;
   background-color: #d2d2d2;
@@ -1088,6 +1236,17 @@ margin-left: 39px;
   width: 1920px;
   height: 96px;
   background: #286DD4;
-  margin: auto;
   color: white;
+  display: flex;
+  position:absolute;
+  justify-content: space-between;
+  margin-top: 83px;
+}
+
+.footerleft {
+margin-left: 20px;
+margin-bottom: 20px;
+}
+.footerright {
+margin-right: 1570px;
 }
