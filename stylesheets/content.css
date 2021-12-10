@@ -51,9 +51,8 @@ body {
   justify-content: space-between;
 }
 
-.plashka{
+.plashka {}
 
-}
 #black1 {
   width: 215px;
   height: 67px;
@@ -63,7 +62,7 @@ body {
   left: 86px;
 }
 
-#black2{
+#black2 {
   width: 215px;
   height: 67px;
   background: black;
@@ -71,6 +70,7 @@ body {
   margin-top: 22px;
   margin-right: 86px;
 }
+
 .b1 {
   color: red;
   margin-left: 25px;
@@ -78,9 +78,9 @@ body {
   position: relative;
   align-items: center;
   margin-top: 3px;
-
 }
-.b2{
+
+.b2 {
   color: #008000;
   margin-left: 65px;
   font-size: 48px;
@@ -117,15 +117,17 @@ body {
   grid-area: 1 / 1 / 2 / 2;
   background: #d2d2d2;
 }
+
 .div2 img {
-  width: 110px;
-  height: 110px;
-  align-items: center;
-  margin-top: 5px;
+  width: 96px;
+  height: 96px;
+  margin-left: 12px;
+  margin-top: 13px;
 }
+
 .div2 {
   grid-area: 1 / 2 / 2 / 3;
-  background-color: #d2d2d2;
+  background-color: #BDBDBD;
 }
 
 .div3 {
@@ -150,7 +152,14 @@ body {
 
 .div7 {
   grid-area: 1 / 7 / 2 / 8;
-  background-color: #d2d2d2;
+  background-color: #BDBDBD;
+}
+
+.div7 img {
+  width: 86px;
+  height: 86px;
+  margin-top: 14px;
+  margin-left: 14px;
 }
 
 .div8 {
@@ -190,7 +199,15 @@ body {
 
 .div15 {
   grid-area: 1 / 15 / 2 / 16;
-  background-color: #d2d2d2;
+  background-color: #bdbdbd;
+}
+
+.div15 p {
+  font-size: 96px;
+  color: #008000;
+  margin-top: 0px;
+  margin-left: 39px;
+
 }
 
 .div16 {
@@ -210,7 +227,13 @@ body {
 
 .div19 {
   grid-area: 2 / 3 / 3 / 4;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
+}
+.div19 p{
+  font-size: 96px;
+  color: #286DD4;
+  margin-top: 0px;
+  margin-left: 39px;
 }
 
 .div20 {
@@ -235,9 +258,14 @@ body {
 
 .div24 {
   grid-area: 2 / 8 / 3 / 9;
-  background-color: #d2d2d2;
+  background-color: #BDBDBD;
 }
-
+.div24 p{
+  font-size: 18px;
+  margin-top: 46px;
+  margin-left: 18px;
+  color: white;
+}
 .div25 {
   grid-area: 2 / 9 / 3 / 10;
   background-color: #d2d2d2;
@@ -247,12 +275,22 @@ body {
   grid-area: 2 / 10 / 3 / 11;
   background-color: #d2d2d2;
 }
-
+.div26 p{
+  font-size: 96px;
+  color: #286DD4;
+  margin-top: 0px;
+  margin-left: 39px;
+}
 .div27 {
   grid-area: 2 / 11 / 3 / 12;
   background-color: #d2d2d2;
 }
-
+.div27 p{
+  font-size: 96px;
+  color: #286DD4;
+  margin-top: 0px;
+  margin-left: 39px;
+}
 .div28 {
   grid-area: 2 / 12 / 3 / 13;
   background-color: #d2d2d2;
@@ -267,7 +305,12 @@ body {
   grid-area: 2 / 14 / 3 / 15;
   background-color: #d2d2d2;
 }
-
+.div30 img{
+  width: 96px;
+  height: 96px;
+  margin-top: 12px;
+  margin-left: 13px;
+}
 .div31 {
   grid-area: 2 / 15 / 3 / 16;
   background-color: #d2d2d2;
