@@ -19,9 +19,11 @@ body {
   height: 76px;
   background: #286DD4;
   margin: auto;
+  display: block;
+  justify-content: space-between;
 }
 
-#header img {
+.leftj {
   position: absolute;
   top: 5px;
   left: 13px;
@@ -51,7 +53,24 @@ body {
   justify-content: space-between;
 }
 
-.plashka {}
+.plashka img {
+  margin-top: 17px;
+}
+
+.rcenter {
+  width: 100px;
+  height: 64px;
+  background: #C4C4C4;
+  margin-top: 27px;
+
+}
+
+.rcenter img {
+  padding-top: 3px;
+  margin-left: 20px;
+
+}
+
 
 #black1 {
   width: 215px;
@@ -89,11 +108,32 @@ body {
   margin-top: 3px;
 }
 
-.blink {
+.b1 {
   animation: blink 2s infinite;
 }
 
+.div46 img{
+  animation: spin 5s linear 0s infinite;
+}
+@keyframes spin {
+  from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
 @keyframes blink {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.b2 {
+  animation: blinkk 2s infinite;
+}
+
+@keyframes blinkk {
   from {
     opacity: 1;
   }
@@ -127,7 +167,7 @@ body {
 
 .div2 {
   grid-area: 1 / 2 / 2 / 3;
-  background-color: #BDBDBD;
+  background-color: #b2b2b2;
 }
 
 .div3 {
@@ -152,7 +192,7 @@ body {
 
 .div7 {
   grid-area: 1 / 7 / 2 / 8;
-  background-color: #BDBDBD;
+  background-color: #b2b2b2;
 }
 
 .div7 img {
@@ -199,7 +239,7 @@ body {
 
 .div15 {
   grid-area: 1 / 15 / 2 / 16;
-  background-color: #bdbdbd;
+  background-color: #b2b2b2;
 }
 
 .div15 p {
@@ -258,7 +298,7 @@ body {
 
 .div24 {
   grid-area: 2 / 8 / 3 / 9;
-  background-color: #BDBDBD;
+  background-color: #b2b2b2;
 }
 
 .div24 p {
@@ -275,7 +315,7 @@ body {
 
 .div26 {
   grid-area: 2 / 10 / 3 / 11;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div26 p {
@@ -287,7 +327,7 @@ body {
 
 .div27 {
   grid-area: 2 / 11 / 3 / 12;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div27 p {
@@ -309,7 +349,7 @@ body {
 
 .div30 {
   grid-area: 2 / 14 / 3 / 15;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div30 img {
@@ -321,7 +361,7 @@ body {
 
 .div31 {
   grid-area: 2 / 15 / 3 / 16;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div32 {
@@ -355,7 +395,7 @@ body {
 
 .div35 {
   grid-area: 3 / 3 / 4 / 4;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div36 {
@@ -365,7 +405,7 @@ body {
 
 .div37 {
   grid-area: 3 / 5 / 4 / 6;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div37 p {
@@ -404,7 +444,7 @@ body {
 
 .div42 {
   grid-area: 3 / 10 / 4 / 11;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div43 p {
@@ -416,7 +456,7 @@ body {
 
 .div43 {
   grid-area: 3 / 11 / 4 / 12;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div44 {
@@ -433,12 +473,12 @@ body {
 
 .div45 {
   grid-area: 3 / 13 / 4 / 14;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div46 {
   grid-area: 3 / 14 / 4 / 15;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div46 img {
@@ -450,7 +490,7 @@ body {
 
 .div47 {
   grid-area: 3 / 15 / 4 / 16;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div47 p {
@@ -491,7 +531,7 @@ body {
 
 .div51 {
   grid-area: 4 / 3 / 5 / 4;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div52 {
@@ -506,7 +546,7 @@ body {
 
 .div54 {
   grid-area: 4 / 6 / 5 / 7;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div54 p {
@@ -528,7 +568,7 @@ body {
 
 .div57 {
   grid-area: 4 / 9 / 5 / 10;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div57 img {
@@ -541,7 +581,7 @@ body {
 
 .div58 {
   grid-area: 4 / 10 / 5 / 11;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div58 img {
@@ -554,7 +594,7 @@ body {
 
 .div59 {
   grid-area: 4 / 11 / 5 / 12;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div59 img {
@@ -576,7 +616,7 @@ body {
 
 .div62 {
   grid-area: 4 / 14 / 5 / 15;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div62 p {
@@ -588,7 +628,7 @@ body {
 
 .div63 {
   grid-area: 4 / 15 / 5 / 16;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div63 p {
@@ -610,7 +650,7 @@ body {
 
 .div66 {
   grid-area: 5 / 2 / 6 / 3;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div66 p {
@@ -622,7 +662,7 @@ body {
 
 .div67 {
   grid-area: 5 / 3 / 6 / 4;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div67 p {
@@ -634,7 +674,7 @@ body {
 
 .div68 {
   grid-area: 5 / 4 / 6 / 5;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div68 img {
@@ -642,8 +682,21 @@ body {
   height: 96px;
   margin-top: 12px;
   margin-left: 8px;
-}
+  animation: spin 5s linear 0s infinite;
+  }
+  @keyframes spin {
+  from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+  }
+  @keyframes blink {
+  from {
+    opacity: 1;
+  }
 
+  to {
+    opacity: 0;
+  }
+  }
 .div69 {
   grid-area: 5 / 5 / 6 / 6;
   background-color: #d2d2d2;
@@ -651,7 +704,7 @@ body {
 
 .div70 {
   grid-area: 5 / 6 / 6 / 7;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div70 p {
@@ -681,7 +734,7 @@ body {
 
 .div73 {
   grid-area: 5 / 9 / 6 / 10;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div74 {
@@ -699,7 +752,7 @@ body {
 
 .div75 {
   grid-area: 5 / 11 / 6 / 12;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div76 {
@@ -709,7 +762,7 @@ body {
 
 .div77 {
   grid-area: 5 / 13 / 6 / 14;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div77 p {
@@ -721,7 +774,7 @@ body {
 
 .div78 {
   grid-area: 5 / 14 / 6 / 15;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div78 img {
@@ -729,11 +782,25 @@ body {
   height: 96px;
   margin-top: 12px;
   margin-left: 8px;
-}
+  animation: spin 5s linear 0s infinite;
+  }
+  @keyframes spin {
+  from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+  }
+  @keyframes blink {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+  }
 
 .div79 {
   grid-area: 5 / 15 / 6 / 16;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div79 p {
@@ -768,11 +835,25 @@ body {
   height: 96px;
   margin-top: 12px;
   margin-left: 8px;
-}
+  animation: spin 5s linear 0s infinite;
+  }
+  @keyframes spin {
+  from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+  }
+  @keyframes blink {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+  }
 
 .div84 {
   grid-area: 6 / 4 / 7 / 5;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div85 {
@@ -789,7 +870,7 @@ body {
 
 .div86 {
   grid-area: 6 / 6 / 7 / 7;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div87 {
@@ -804,7 +885,7 @@ body {
 
 .div89 {
   grid-area: 6 / 9 / 7 / 10;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div89 img {
@@ -817,7 +898,7 @@ body {
 
 .div90 {
   grid-area: 6 / 10 / 7 / 11;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div90 img {
@@ -830,7 +911,7 @@ body {
 
 .div91 {
   grid-area: 6 / 11 / 7 / 12;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div91 img {
@@ -848,7 +929,7 @@ body {
 
 .div93 {
   grid-area: 6 / 13 / 7 / 14;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div93 p {
@@ -865,7 +946,7 @@ body {
 
 .div95 {
   grid-area: 6 / 15 / 7 / 16;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div95 p {
@@ -890,11 +971,25 @@ body {
   height: 96px;
   margin-top: 12px;
   margin-left: 8px;
-}
+  animation: spin 5s linear 0s infinite;
+  }
+  @keyframes spin {
+  from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+  }
+  @keyframes blink {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+  }
 
 .div98 {
   grid-area: 7 / 2 / 8 / 3;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div99 {
@@ -914,7 +1009,7 @@ body {
 
 .div102 {
   grid-area: 7 / 6 / 8 / 7;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div102 p {
@@ -926,7 +1021,7 @@ body {
 
 .div103 {
   grid-area: 7 / 7 / 8 / 8;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div103 p {
@@ -963,7 +1058,7 @@ body {
 
 .div109 {
   grid-area: 7 / 13 / 8 / 14;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div109 p {
@@ -992,7 +1087,7 @@ body {
 
 .div112 {
   grid-area: 7 / 16 / 8 / 17;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div113 {
@@ -1002,7 +1097,7 @@ body {
 
 .div114 {
   grid-area: 8 / 2 / 9 / 3;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div114 img {
@@ -1010,7 +1105,21 @@ body {
   height: 96px;
   margin-top: 12px;
   margin-left: 8px;
-}
+  animation: spin 5s linear 0s infinite;
+  }
+  @keyframes spin {
+  from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+  }
+  @keyframes blink {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+  }
 
 .div115 {
   grid-area: 8 / 3 / 9 / 4;
@@ -1044,7 +1153,7 @@ body {
 
 .div121 {
   grid-area: 8 / 9 / 9 / 10;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div121 p {
@@ -1056,7 +1165,7 @@ body {
 
 .div122 {
   grid-area: 8 / 10 / 9 / 11;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div122 p {
@@ -1068,7 +1177,7 @@ body {
 
 .div123 {
   grid-area: 8 / 11 / 9 / 12;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div123 p {
@@ -1090,7 +1199,7 @@ body {
 
 .div126 {
   grid-area: 8 / 14 / 9 / 15;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div126 img {
@@ -1102,7 +1211,7 @@ body {
 
 .div127 {
   grid-area: 8 / 15 / 9 / 16;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div127 p {
@@ -1114,7 +1223,7 @@ body {
 
 .div128 {
   grid-area: 8 / 16 / 9 / 17;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div128 p {
@@ -1141,7 +1250,7 @@ body {
 
 .div132 {
   grid-area: 9 / 4 / 10 / 5;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div132 p {
@@ -1158,12 +1267,12 @@ body {
 
 .div134 {
   grid-area: 9 / 6 / 10 / 7;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div135 {
   grid-area: 9 / 7 / 10 / 8;
-  background-color: #d2d2d2;
+  background-color: #b2b2b2;
 }
 
 .div134 img {
@@ -1171,14 +1280,42 @@ body {
   height: 96px;
   margin-top: 12px;
   margin-left: 8px;
-}
+  animation: spin 5s linear 0s infinite;
+  }
+  @keyframes spin {
+  from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+  }
+  @keyframes blink {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+  }
 
 .div135 img {
   width: 96px;
   height: 96px;
   margin-top: 12px;
   margin-left: 8px;
-}
+  animation: spin 5s linear 0s infinite;
+  }
+  @keyframes spin {
+  from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+  }
+  @keyframes blink {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+  }
 
 .div136 {
   grid-area: 9 / 8 / 10 / 9;
@@ -1202,7 +1339,7 @@ body {
 
 .div140 {
   grid-area: 9 / 12 / 10 / 13;
-  background-color: #d2d2d2;
+  background-color: #b2b2d2;
 }
 
 .div140 p {
@@ -1238,15 +1375,16 @@ body {
   background: #286DD4;
   color: white;
   display: flex;
-  position:absolute;
+  position: absolute;
   justify-content: space-between;
   margin-top: 83px;
 }
 
 .footerleft {
-margin-left: 20px;
-margin-bottom: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
+
 .footerright {
-margin-right: 1570px;
+  margin-right: 1570px;
 }
