@@ -2,7 +2,7 @@
     font-family: Pixel Cyr;
     src: url(resource/fonts/pixelcyr_normal.ttf);
     src: local(Pixel Cyr), url(resource/fonts/pixelcyr_normal.ttf);
-
+}
 body {
   background-color: #BDBDBD;
   margin: 0;
