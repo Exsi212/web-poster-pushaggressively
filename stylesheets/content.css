@@ -1,8 +1,8 @@
 @font-face {
-    font-family: Pixel Cyr;
-    src: url(resource/fonts/pixelcyr_normal.ttf);
-    src: local(Pixel Cyr), url(resource/fonts/pixelcyr_normal.ttf);
-
+    font-family: 'Pixel Cyr';
+    src: local('Pixel Cyr'),
+         url('/fonts/pixelcyr_normal.ttf') format('truetype');
+}
 body {
   background-color: #BDBDBD;
   margin: 0;
