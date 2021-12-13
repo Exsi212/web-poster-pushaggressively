@@ -1,15 +1,15 @@
 @font-face {
-    font-family: 'Pixel Cyr';
-    src: local('Pixel Cyr'), url('/resource/fonts/pixel_cyr_normal.ttf') format('truetype');
-    src: url('/resource/fonts/pixel_cyr_normal.eot')
+  font-family: 'Pixel Cyr';
+  src: local('Pixel Cyr'), url('/resource/fonts/pixel_cyr_normal.ttf') format('truetype');
+  src: url('/resource/fonts/pixel_cyr_normal.eot')
 }
+
 body {
   background-color: #BDBDBD;
   margin: 0;
   font-family: 'Pixel Cyr';
   align-items: center;
   width: 1920px;
-
 }
 
 #header {
@@ -19,7 +19,6 @@ body {
   margin: auto;
   display: flex;
   justify-content: space-between;
-
 }
 
 .leftj {
@@ -40,7 +39,6 @@ body {
   top: -30px;
 }
 
-
 .plashka {
   margin-top: 17px;
   margin-right: 20px;
@@ -54,29 +52,33 @@ body {
   margin-left: 80px;
 }
 
-.img{
+.img {
   background-image: url('../resource/img/asmilepng.png');
   margin-left: 30px;
   width: 54px;
   height: 58px;
   position: relative;
   display: block;
-animation: walk .5s steps(2) infinite;
-margin-top: 3px;
+  animation: walk .5s steps(2) infinite;
+  margin-top: 3px;
 }
 
 @keyframes walk {
-  0% {background-position: 0px 0px;}
-  100% {background-position: -108px 0px;}
+  0% {
+    background-position: 0px 0px;
+  }
+
+  100% {
+    background-position: -108px 0px;
+  }
 }
+
 /*
 .rcenter img {
   padding-top: 3px;
   margin-left: 20px;
 
 }  */
-
-
 .black1 {
   width: 215px;
   height: 67px;
@@ -116,13 +118,11 @@ margin-top: 3px;
   animation: blink 2s infinite;
 }
 
-
-
 .b2 {
   animation: blink 2s infinite;
 }
 
-.rectangle1{
+.rectangle1 {
   width: 1880px;
   height: 115px;
   background: #AAAAAA;
@@ -142,14 +142,20 @@ margin-top: 3px;
   left: 86px;
 }
 
-
-.div46 img{
+.div46 img {
   animation: spin 5s linear 0s infinite;
 }
+
 @keyframes spin {
-  from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
+
 @keyframes blink {
   from {
     opacity: 1;
@@ -159,6 +165,7 @@ margin-top: 3px;
     opacity: 0;
   }
 }
+
 @keyframes blinkk {
   from {
     opacity: 1;
@@ -195,18 +202,22 @@ margin-top: 3px;
   grid-area: 1 / 2 / 2 / 3;
   background-color: #b2b2b2;
 }
-.div3:hover{
+
+.div3:hover {
   background-color: #E42217;
-    cursor: pointer;
+  cursor: pointer;
 }
+
 .div3 {
   grid-area: 1 / 3 / 2 / 4;
   background-color: #d2d2d2;
 }
-.div4:hover{
+
+.div4:hover {
   background-color: #E41B17;
-    cursor: pointer;
+  cursor: pointer;
 }
+
 .div4 {
   grid-area: 1 / 4 / 2 / 5;
   background-color: #d2d2d2;
@@ -232,22 +243,27 @@ margin-top: 3px;
   height: 86px;
   margin-top: 14px;
   margin-left: 14px;
-  animation: zoomInZoomOut 2s; /* Animation */
+  animation: zoomInZoomOut 2s;
+  /* Animation */
   animation-duration: 5s;
   animation-timing-function: ease;
   animation-iteration-count: infinite;
 }
+
 @keyframes zoomInZoomOut {
   0% {
     transform: scale(1, 1);
   }
+
   50% {
     transform: scale(1.2, 1.2);
   }
+
   100% {
     transform: scale(1, 1);
   }
 }
+
 /* .div7 img:{
   transform: scale(1.5);
 } */
@@ -329,10 +345,12 @@ margin-top: 3px;
   grid-area: 2 / 4 / 3 / 5;
   background-color: #d2d2d2;
 }
-.div20:hover{
+
+.div20:hover {
   background-color: #FF6700;
-    cursor: pointer;
+  cursor: pointer;
 }
+
 .div21 {
   grid-area: 2 / 5 / 3 / 6;
   background-color: #d2d2d2;
@@ -454,10 +472,12 @@ margin-top: 3px;
   grid-area: 3 / 4 / 4 / 5;
   background-color: #d2d2d2;
 }
-.div36:hover{
+
+.div36:hover {
   background-color: #FF5F1F;
-    cursor: pointer;
+  cursor: pointer;
 }
+
 .div37 {
   grid-area: 3 / 5 / 4 / 6;
   background-color: #b2b2b2;
@@ -593,18 +613,22 @@ margin-top: 3px;
   grid-area: 4 / 4 / 5 / 5;
   background-color: #d2d2d2;
 }
-.div52:hover{
+
+.div52:hover {
   background-color: #E9AB17;
-    cursor: pointer;
+  cursor: pointer;
 }
+
 .div53 {
   grid-area: 4 / 5 / 5 / 6;
   background-color: #d2d2d2;
 }
-.div53:hover{
+
+.div53:hover {
   background-color: #E8A317;
-    cursor: pointer;
+  cursor: pointer;
 }
+
 .div54 {
   grid-area: 4 / 6 / 5 / 7;
   background-color: #b2b2b2;
@@ -638,8 +662,27 @@ margin-top: 3px;
   margin-left: 11px;
   margin-top: 15px;
   margin-right: 9px;
-}
+  animation: zoomInZoomOut 3s infinite, wallk 3s steps(1) infinite;
 
+  position: absolute;
+}
+@keyframes zoomInZoomOut {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes wallk {
+  0% { opacity: 0; }
+    50% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; }
+}
 .div58 {
   grid-area: 4 / 10 / 5 / 11;
   background-color: #b2b2b2;
@@ -744,12 +787,19 @@ margin-top: 3px;
   margin-top: 12px;
   margin-left: 8px;
   animation: spin 5s linear 0s infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
   }
-  @keyframes spin {
-  from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+
+  to {
+    transform: rotate(360deg);
   }
-  @keyframes blink {
+}
+
+@keyframes blink {
   from {
     opacity: 1;
   }
@@ -757,15 +807,18 @@ margin-top: 3px;
   to {
     opacity: 0;
   }
-  }
+}
+
 .div69 {
   grid-area: 5 / 5 / 6 / 6;
   background-color: #d2d2d2;
 }
-.div69:hover{
+
+.div69:hover {
   background-color: #7CFC00;
-    cursor: pointer;
+  cursor: pointer;
 }
+
 .div70 {
   grid-area: 5 / 6 / 6 / 7;
   background-color: #b2b2b2;
@@ -847,12 +900,19 @@ margin-top: 3px;
   margin-top: 12px;
   margin-left: 8px;
   animation: spin 5s linear 0s infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
   }
-  @keyframes spin {
-  from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+
+  to {
+    transform: rotate(360deg);
   }
-  @keyframes blink {
+}
+
+@keyframes blink {
   from {
     opacity: 1;
   }
@@ -860,7 +920,7 @@ margin-top: 3px;
   to {
     opacity: 0;
   }
-  }
+}
 
 .div79 {
   grid-area: 5 / 15 / 6 / 16;
@@ -900,12 +960,19 @@ margin-top: 3px;
   margin-top: 12px;
   margin-left: 8px;
   animation: spin 5s linear 0s infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
   }
-  @keyframes spin {
-  from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+
+  to {
+    transform: rotate(360deg);
   }
-  @keyframes blink {
+}
+
+@keyframes blink {
   from {
     opacity: 1;
   }
@@ -913,7 +980,7 @@ margin-top: 3px;
   to {
     opacity: 0;
   }
-  }
+}
 
 .div84 {
   grid-area: 6 / 4 / 7 / 5;
@@ -924,9 +991,10 @@ margin-top: 3px;
   grid-area: 6 / 5 / 7 / 6;
   background-color: #d2d2d2;
 }
-.div85:hover{
+
+.div85:hover {
   background-color: #66FF00;
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .div86 p {
@@ -1040,12 +1108,19 @@ margin-top: 3px;
   margin-top: 12px;
   margin-left: 8px;
   animation: spin 5s linear 0s infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
   }
-  @keyframes spin {
-  from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+
+  to {
+    transform: rotate(360deg);
   }
-  @keyframes blink {
+}
+
+@keyframes blink {
   from {
     opacity: 1;
   }
@@ -1053,7 +1128,7 @@ margin-top: 3px;
   to {
     opacity: 0;
   }
-  }
+}
 
 .div98 {
   grid-area: 7 / 2 / 8 / 3;
@@ -1074,10 +1149,12 @@ margin-top: 3px;
   grid-area: 7 / 5 / 8 / 6;
   background-color: #d2d2d2;
 }
-.div101:hover{
+
+.div101:hover {
   background-color: #43C6DB;
-    cursor: pointer;
+  cursor: pointer;
 }
+
 .div102 {
   grid-area: 7 / 6 / 8 / 7;
   background-color: #b2b2b2;
@@ -1177,12 +1254,19 @@ margin-top: 3px;
   margin-top: 12px;
   margin-left: 8px;
   animation: spin 5s linear 0s infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
   }
-  @keyframes spin {
-  from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+
+  to {
+    transform: rotate(360deg);
   }
-  @keyframes blink {
+}
+
+@keyframes blink {
   from {
     opacity: 1;
   }
@@ -1190,7 +1274,7 @@ margin-top: 3px;
   to {
     opacity: 0;
   }
-  }
+}
 
 .div115 {
   grid-area: 8 / 3 / 9 / 4;
@@ -1206,34 +1290,42 @@ margin-top: 3px;
   grid-area: 8 / 5 / 9 / 6;
   background-color: #d2d2d2;
 }
-.div117:hover{
+
+.div117:hover {
   background-color: #43BFC7;
-    cursor: pointer;
+  cursor: pointer;
 }
+
 .div118 {
   grid-area: 8 / 6 / 9 / 7;
   background-color: #d2d2d2;
 }
-.div118:hover{
+
+.div118:hover {
   background-color: #00BFFF;
-    cursor: pointer;
+  cursor: pointer;
 }
+
 .div119 {
   grid-area: 8 / 7 / 9 / 8;
   background-color: #d2d2d2;
 }
-.div119:hover{
+
+.div119:hover {
   background-color: #3BB9FF;
-    cursor: pointer;
+  cursor: pointer;
 }
+
 .div120 {
   grid-area: 8 / 8 / 9 / 9;
   background-color: #d2d2d2;
 }
-.div120:hover{
+
+.div120:hover {
   background-color: #38ACEC;
-    cursor: pointer;
+  cursor: pointer;
 }
+
 .div121 {
   grid-area: 8 / 9 / 9 / 10;
   background-color: #b2b2b2;
@@ -1290,11 +1382,13 @@ margin-top: 3px;
   height: 86px;
   margin-top: 14px;
   margin-left: 14px;
-  transition: transform .2s; /* Animation */
-  }
-  .div126 img:hover{
+  transition: transform .2s;
+  /* Animation */
+}
+
+.div126 img:hover {
   transform: scale(1.5);
-  }
+}
 
 .div127 {
   grid-area: 8 / 15 / 9 / 16;
@@ -1368,12 +1462,19 @@ margin-top: 3px;
   margin-top: 12px;
   margin-left: 8px;
   animation: spin 5s linear 0s infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
   }
-  @keyframes spin {
-  from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+
+  to {
+    transform: rotate(360deg);
   }
-  @keyframes blink {
+}
+
+@keyframes blink {
   from {
     opacity: 1;
   }
@@ -1381,7 +1482,7 @@ margin-top: 3px;
   to {
     opacity: 0;
   }
-  }
+}
 
 .div135 img {
   width: 96px;
@@ -1389,12 +1490,19 @@ margin-top: 3px;
   margin-top: 12px;
   margin-left: 8px;
   animation: spin 5s linear 0s infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
   }
-  @keyframes spin {
-  from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+
+  to {
+    transform: rotate(360deg);
   }
-  @keyframes blink {
+}
+
+@keyframes blink {
   from {
     opacity: 1;
   }
@@ -1402,41 +1510,48 @@ margin-top: 3px;
   to {
     opacity: 0;
   }
-  }
+}
 
 .div136 {
   grid-area: 9 / 8 / 10 / 9;
   background-color: #d2d2d2;
 }
-.div136:hover{
+
+.div136:hover {
   background-color: #663399;
-    cursor: pointer;
+  cursor: pointer;
 }
+
 .div137 {
   grid-area: 9 / 9 / 10 / 10;
   background-color: #d2d2d2;
 }
-.div137:hover{
+
+.div137:hover {
   background-color: #8a2be2;
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .div138 {
   grid-area: 9 / 10 / 10 / 11;
   background-color: #d2d2d2;
 }
-.div138:hover{
+
+.div138:hover {
   background-color: #9400d3;
-    cursor: pointer;
+  cursor: pointer;
 }
+
 .div139 {
   grid-area: 9 / 11 / 10 / 12;
   background-color: #d2d2d2;
 }
-.div139:hover{
+
+.div139:hover {
   background-color: #9932cc;
   cursor: pointer;
 }
+
 .div140 {
   grid-area: 9 / 12 / 10 / 13;
   background-color: #b2b2b2;
