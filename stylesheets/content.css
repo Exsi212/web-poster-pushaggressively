@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Pixel Cyr';
-    src: local('Pixel Cyr'), url('resource/fonts/pixel_cyr_normal.ttf') format('truetype');
-    src: url('resource/fonts/pixel_cyr_normal.eot')
+    src: local('Pixel Cyr'), url('/resource/fonts/pixel_cyr_normal.ttf') format('truetype');
+    src: url('/resource/fonts/pixel_cyr_normal.eot')
 }
 body {
   background-color: #BDBDBD;
