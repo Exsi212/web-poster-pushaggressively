@@ -1,8 +1,5 @@
 @font-face {
-  // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)
-  font-family: "Pixel Cyr";
-  // адрес шрифта и тип
-  src: url("resource/fonts/3572.ttf") format("truetype");
+  src: url("resource/fonts/pixelcyr_normal.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
