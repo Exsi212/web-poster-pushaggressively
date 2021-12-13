@@ -8,7 +8,7 @@ body {
   margin: 0;
   font-family: 'Pixel Cyr';
   align-items: center;
-  max-width: 1920px;
+  /* max-width: 1920px; */
 }
 
 #header {
