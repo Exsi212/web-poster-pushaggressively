@@ -9,7 +9,8 @@ body {
   margin: 0;
   font-family: 'Pixel Cyr';
   align-items: center;
-  width: 1920px;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 #header {
