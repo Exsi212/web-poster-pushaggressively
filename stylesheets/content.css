@@ -192,7 +192,10 @@ body {
   grid-area: 1 / 1 / 2 / 2;
   background: #d2d2d2;
 }
-
+.div1:hover{
+  background-color: #2B65EC;
+  cursor: pointer;
+}
 .div2 img {
   width: 96px;
   height: 96px;
@@ -234,7 +237,10 @@ body {
   grid-area: 1 / 6 / 2 / 7;
   background-color: #d2d2d2;
 }
-
+.div6:hover{
+  background-color: #F75D59;
+  cursor: pointer;
+}
 .div7 {
   grid-area: 1 / 7 / 2 / 8;
   background-color: #b2b2b2;
@@ -325,7 +331,10 @@ body {
   grid-area: 2 / 1 / 3 / 2;
   background-color: #d2d2d2;
 }
-
+.div17:hover{
+  background-color: #00BFFF;
+  cursor: pointer;
+}
 .div18 {
   grid-area: 2 / 2 / 3 / 3;
   background-color: #d2d2d2;
@@ -367,6 +376,11 @@ body {
   grid-area: 2 / 7 / 3 / 8;
   background-color: #d2d2d2;
 }
+.div23:hover{
+
+    background-color: #50C878;
+    cursor: pointer;
+  }
 
 .div24 {
   grid-area: 2 / 8 / 3 / 9;
@@ -413,7 +427,10 @@ body {
   grid-area: 2 / 12 / 3 / 13;
   background-color: #d2d2d2;
 }
-
+.div28:hover{
+  background-color: #736AFF;
+  cursor: pointer;
+}
 .div29 {
   grid-area: 2 / 13 / 3 / 14;
   background-color: #d2d2d2;
@@ -440,7 +457,10 @@ body {
   grid-area: 2 / 16 / 3 / 17;
   background-color: #d2d2d2;
 }
-
+.div32:hover{
+  background-color: #40E0D0;
+  cursor: pointer;
+}
 .div31 p {
   font-size: 96px;
   color: #008000;
@@ -511,7 +531,10 @@ body {
   grid-area: 3 / 9 / 4 / 10;
   background-color: #d2d2d2;
 }
-
+.div41:hover{
+  background-color: #4AA02C;
+  cursor: pointer;
+}
 .div42 p {
   font-size: 96px;
   color: #286DD4;
@@ -540,7 +563,14 @@ body {
   grid-area: 3 / 12 / 4 / 13;
   background-color: #d2d2d2;
 }
-
+.div44:hover{
+  background-color: #571B7E;
+  cursor: pointer;
+}
+.div144:hover{
+  background-color: #3CB371;
+  cursor: pointer;
+}
 .div45 img {
   width: 96px;
   height: 96px;
@@ -581,7 +611,10 @@ body {
   grid-area: 3 / 16 / 4 / 17;
   background-color: #d2d2d2;
 }
-
+.div48:hover{
+  background-color: #9370DB;
+  cursor: pointer;
+}
 .div49 {
   grid-area: 4 / 1 / 5 / 2;
   background-color: #d2d2d2;
@@ -647,12 +680,18 @@ body {
   grid-area: 4 / 7 / 5 / 8;
   background-color: #d2d2d2;
 }
-
+.div55:hover{
+  background-color: #E42217;
+  cursor: pointer;
+}
 .div56 {
   grid-area: 4 / 8 / 5 / 9;
   background-color: #d2d2d2;
 }
-
+.div56:hover{
+  background-color: #FFEF00;
+  cursor: pointer;
+}
 .div57 {
   grid-area: 4 / 9 / 5 / 10;
   background-color: #b2b2b2;
@@ -713,7 +752,10 @@ body {
   grid-area: 4 / 12 / 5 / 13;
   background-color: #d2d2d2;
 }
-
+.div60:hover{
+  background-color: #8467D7;
+  cursor: pointer;
+}
 .div61 {
   grid-area: 4 / 13 / 5 / 14;
   background-color: #d2d2d2;
@@ -747,12 +789,18 @@ body {
   grid-area: 4 / 16 / 5 / 17;
   background-color: #d2d2d2;
 }
-
+.div64:hover{
+  background-color: #D2691E;
+  cursor: pointer;
+}
 .div65 {
   grid-area: 5 / 1 / 6 / 2;
   background-color: #d2d2d2;
 }
-
+.div65:hover{
+  background-color: #7D0552;
+  cursor: pointer;
+}
 .div66 {
   grid-area: 5 / 2 / 6 / 3;
   background-color: #b2b2b2;
@@ -836,12 +884,18 @@ body {
   grid-area: 5 / 7 / 6 / 8;
   background-color: #d2d2d2;
 }
-
+.div71:hover{
+  background-color: #800000;
+  cursor: pointer;
+}
 .div72 {
   grid-area: 5 / 8 / 6 / 9;
   background-color: #d2d2d2;
 }
-
+.div72:hover{
+  background-color: #FFA500;
+  cursor: pointer;
+}
 .div73 img {
   width: 96px;
   height: 96px;
@@ -877,7 +931,10 @@ body {
   grid-area: 5 / 12 / 6 / 13;
   background-color: #d2d2d2;
 }
-
+.div76:hover{
+  background-color: #0000CD;
+  cursor: pointer;
+}
 .div77 {
   grid-area: 5 / 13 / 6 / 14;
   background-color: #b2b2b2;
@@ -944,7 +1001,10 @@ body {
   grid-area: 6 / 1 / 7 / 2;
   background-color: #d2d2d2;
 }
-
+.duv81:hover{
+  background-color: #F660AB;
+  cursor: pointer;
+}
 .div82 {
   grid-area: 6 / 2 / 7 / 3;
   background-color: #d2d2d2;
@@ -1019,7 +1079,10 @@ body {
   grid-area: 6 / 8 / 7 / 9;
   background-color: #d2d2d2;
 }
-
+.div88:hover{
+  background-color: #E9AB17;
+  cursor: pointer;
+}
 .div89 {
   grid-area: 6 / 9 / 7 / 10;
   background-color: #b2b2b2;
@@ -1081,7 +1144,11 @@ body {
   grid-area: 6 / 12 / 7 / 13;
   background-color: #d2d2d2;
 }
+.div92:hover{
+  background-color: #4B0082;
+  cursor: pointer;
 
+}
 .div93 {
   grid-area: 6 / 13 / 7 / 14;
   background-color: #b2b2b2;
@@ -1120,7 +1187,10 @@ body {
   grid-area: 7 / 1 / 8 / 2;
   background-color: #d2d2d2;
 }
-
+.div97:hover{
+  background-color: #DF73D4;
+  cursor: pointer;
+}
 .div98 img {
   width: 96px;
   height: 96px;
@@ -1212,12 +1282,18 @@ body {
   grid-area: 7 / 10 / 8 / 11;
   background-color: #d2d2d2;
 }
-
+.div106:hover{
+  background-color: #FF5F1F;
+  cursor: pointer;
+}
 .div107 {
   grid-area: 7 / 11 / 8 / 12;
   background-color: #d2d2d2;
 }
-
+.div107:hover{
+  background-color: #F08080;
+  cursor: pointer;
+}
 .div108 {
   grid-area: 7 / 12 / 8 / 13;
   background-color: #d2d2d2;
@@ -1261,7 +1337,10 @@ body {
   grid-area: 8 / 1 / 9 / 2;
   background-color: #d2d2d2;
 }
-
+.div113:hover{
+  background-color: #6960EC;
+  cursor: pointer;
+}
 .div114 {
   grid-area: 8 / 2 / 9 / 3;
   background-color: #b2b2b2;
@@ -1587,12 +1666,18 @@ body {
   grid-area: 9 / 13 / 10 / 14;
   background-color: #d2d2d2;
 }
-
+.div141:hover{
+  background-color: #228B22;
+  cursor: pointer;
+}
 .div142 {
   grid-area: 9 / 14 / 10 / 15;
   background-color: #d2d2d2;
 }
-
+.div142:hover{
+  background-color: #FF8C00;
+  cursor: pointer;
+}
 .div143 {
   grid-area: 9 / 15 / 10 / 16;
   background-color: #d2d2d2;
