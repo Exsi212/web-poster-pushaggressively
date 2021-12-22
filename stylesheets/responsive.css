@@ -597,7 +597,7 @@
   }
   .parent {
     display: grid;
-      grid-template-columns: repeat(auto-fit, 56px);
+      grid-template-columns: repeat(auto-fit, 57.5px);
       grid-template-rows: repeat(9, 56px);
       grid-column-gap: 4px;
       grid-row-gap: 4px;
@@ -853,135 +853,8 @@
       /* position: absolute; */
 
       margin-top: 20px;
-    }
+    } */
 
-    @media (min-width:414px) and (max-width:414px) {
-      body {
-        background-color: #BDBDBD;
-        margin: 0;
-        font-family: 'Pixel Cyr';
-        align-items: center;
-        max-width: 414px;px;
-        overflow-x: hidden;
-      }
-      .parent {
-        display: grid;
-          grid-template-columns: repeat(auto-fit, 56px);
-          grid-template-rows: repeat(9, 56px);
-          grid-column-gap: 4px;
-          grid-row-gap: 4px;
-          margin-top: 40px;
-          margin-left: 14px;
-
-      }
-
-      #header {
-        width: 414px;
-        height: 23px;
-        background: #286DD4;
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
-      }
-
-      #header p {
-        font-size: 10px;
-        margin-left: 61px;
-        position: absolute;
-        color: white;
-        line-height: 91.69%;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.02em;
-        top: -10px;
-      margin-left: 48px;
-      }
-
-      .leftj {
-        position: relative;
-        top: 5px;
-        left: 13px;
-      }
-
-      .leftj img {
-        width: 30px;
-        height: 30px;
-      }
-
-      .plashka {
-        margin-top: 10px;
-        margin-right: 20px;
-      }
-
-      .plashka img {
-        height: 15px;
-      }
-
-      .rectangle1 {
-        width: 398px;
-        height: 41px;
-        background: #AAAAAA;
-        display: flex;
-        justify-content: space-between;
-        position: relative;
-        margin-top: 33px;
-        margin-left: 12px;
-      }
-
-      .black1 {
-        width: 60px;
-        height: 28px;
-        background: black;
-        position: relative;
-        margin-top: 5px;
-        left: 12px;
-      }
-
-      .black2 {
-        width: 60px;
-        height: 28px;
-        background: black;
-        position: relative;
-        margin-top: 5px;
-        margin-right: 12px;
-      }
-
-      .b1 {
-        color: red;
-        margin-left: 38px;
-        font-size: 16px;
-        position: relative;
-        margin-top: 3px;
-      }
-
-      .b2 {
-        color: #008000;
-        margin-left: 45px;
-        font-size: 16px;
-        position: relative;
-        align-items: center;
-        margin-top: 3px;
-      }
-
-      .rcenter {
-        width: 58px;
-        height: 28px;
-        background: #C4C4C4;
-        margin-top: 4px;
-        margin-left: 80px;
-      }
-
-      .img {
-        background-image: url('../resource/img/asmilepng.png');
-        margin-left: 2px;
-        width: 54px;
-        height: 58px;
-        position: relative;
-        display: block;
-        animation: walk .5s steps(2) infinite;
-        margin-top: -15px;
-        transform: scale(0.4);
-    }
 
 
 }
