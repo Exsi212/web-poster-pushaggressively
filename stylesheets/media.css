@@ -598,7 +598,7 @@
   .parent {
     display: grid;
     grid-template-columns: repeat(13, 63px);
-    grid-template-rows: repeat(9, 63px);
+    grid-template-rows: repeat(14, 63px);
     grid-column-gap: 4px;
     grid-row-gap: 4px;
     margin-top: 40px;
@@ -778,7 +778,70 @@
     .div47{
       display: none;
     }
-    .div48{
+    .div76{
+      display: none;
+    }
+    .div77{
+      display: none;
+    }
+    .div78{
+      display: none;
+    }
+    .div79{
+      display: none;
+    }
+    .div80{
+      display: none;
+    }
+    .div92{
+      display: none;
+    }
+    .div93{
+      display: none;
+    }
+    .div94{
+      display: none;
+    }
+    .div95{
+      display: none;
+    }
+    .div96{
+      display: none;
+    }
+    .div108{
+      display: none;
+    }
+    .div109{
+      display: none;
+    }
+    .div110{
+      display: none;
+    }
+    .div111{
+      display:none;
+    }
+    .div112{
+      display: none;
+    }
+    .div124{
+      display: none;
+    }
+    .div125{
+      display: none;
+    }
+    .div126{
+      display: none;
+    }
+    .div127{
+      display: none;
+    }
+    .div128{
+      display: none;
+    }
+    .div140{
+      display: none;
+    }
+    .div141{
       display: none;
     }
 }
