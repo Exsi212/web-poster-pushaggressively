@@ -762,9 +762,10 @@ body {
 .div58 img {
   width: 96px;
   height: 96px;
-  margin-left: 11px;
-  margin-top: 15px;
   margin-right: 9px;
+  margin-left: 20px;
+  margin-top: 25px;
+  animation: shake .1s infinite alternate;
 }
 
 .div59 {
@@ -940,9 +941,10 @@ body {
 .div73 img {
   width: 96px;
   height: 96px;
-  margin-left: 11px;
-  margin-top: 15px;
   margin-right: 9px;
+  margin-left: 20px;
+  margin-top: 25px;
+  animation: shake .1s infinite alternate;
 }
 
 .div73 {
@@ -958,9 +960,11 @@ body {
 .div75 img {
   width: 96px;
   height: 96px;
-  margin-left: 11px;
-  margin-top: 15px;
   margin-right: 9px;
+  margin-left: 20px;
+  margin-top: 25px;
+  animation: shake .1s infinite alternate;
+
 }
 
 .div75 {
@@ -1138,11 +1142,18 @@ body {
 .div89 img {
   width: 96px;
   height: 96px;
-  margin-left: 11px;
-  margin-top: 15px;
+  margin-left: 20px;
+  margin-top: 25px;
   margin-right: 9px;
+  animation: shake .1s infinite alternate;
 }
+  @keyframes shake {
 
+    0% { transform: translate(-8px, -14px); }
+      33% { transform: translate(-10px, -14px); }
+      66% { transform: translate(-10px, -16px); }
+      100% { transform: translate(-8px, -16px); }
+}
 .div90 {
   grid-area: 6 / 10 / 7 / 11;
   background-color: #b2b2b2;
@@ -1199,8 +1210,9 @@ body {
   width: 96px;
   height: 96px;
   margin-left: 11px;
-  margin-top: 15px;
-  margin-right: 9px;
+  margin-left: 20px;
+  margin-top: 25px;
+  animation: shake .1s infinite alternate;
 }
 
 .div92 {
@@ -1766,20 +1778,16 @@ body {
 
 .footer {
   width: 1920px;
-  height: 96px;
+  height: 76px;
   background: #286DD4;
   color: white;
-  display: flex;
-  position: absolute;
-  justify-content: space-between;
-  margin-top: 83px;
+  /* position: absolute; */
+
+  margin-top: 43px;
 }
 
-.footerleft {
+.footerleft p {
   margin-left: 20px;
-  margin-bottom: 20px;
-}
-
-.footerright {
-  margin-right: 1570px;
+  margin-top: 30px;
+  display: inline-block;
 }
