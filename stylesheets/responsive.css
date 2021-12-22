@@ -597,12 +597,12 @@
   }
   .parent {
     display: grid;
-    grid-auto-columns: repeat(auto-fit, 57px);
-    grid-auto-rows: repeat(16, 57px);
-    grid-column-gap: 4px;
-    grid-row-gap: 4px;
-    margin-top: 40px;
-    margin-left: 14px;
+      grid-template-columns: repeat(auto-fit, 56px);
+      grid-template-rows: repeat(9, 56px);
+      grid-column-gap: 4px;
+      grid-row-gap: 4px;
+      margin-top: 40px;
+      margin-left: 14px;
 
   }
 
