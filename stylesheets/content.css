@@ -1777,7 +1777,7 @@ body {
 }
 
 .footer {
-  width: 1920px;
+  width: 100%;
   height: 76px;
   background: #286DD4;
   color: white;
